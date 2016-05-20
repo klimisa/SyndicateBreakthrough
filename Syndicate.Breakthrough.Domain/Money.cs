@@ -5,7 +5,7 @@ namespace Syndicate.Breakthrough.Domain
 {
     public class Money
     {
-        public decimal Amount { get; private set; }
+        public decimal Amount { get; }
 
         public Money(decimal amount)
         {
