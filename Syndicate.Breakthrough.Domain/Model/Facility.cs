@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Syndicate.Breakthrough.Domain
+namespace Syndicate.Breakthrough.Domain.Model
 {
     public class Facility
     {
@@ -10,6 +10,8 @@ namespace Syndicate.Breakthrough.Domain
         public Money Limit { get; }
 
         public List<Investment> Investments { get; }
+
+        public Loan Loan { get; set; }
 
         public Facility(Guid id, Money limit)
         {

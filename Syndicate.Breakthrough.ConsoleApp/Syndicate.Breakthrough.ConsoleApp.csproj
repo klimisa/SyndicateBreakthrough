@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Syndicate.Breakthrough.Domain\Syndicate.Breakthrough.Domain.csproj">
+      <Project>{1C964250-AC0C-48F9-8DF0-1D88CCCF374A}</Project>
+      <Name>Syndicate.Breakthrough.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

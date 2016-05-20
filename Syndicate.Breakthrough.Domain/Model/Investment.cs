@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Syndicate.Breakthrough.Domain
+namespace Syndicate.Breakthrough.Domain.Model
 {
     public class Investment
     {
@@ -22,6 +22,11 @@ namespace Syndicate.Breakthrough.Domain
             Id = id;
             Investor = investor;
             Percent = percent;
+        }
+
+        public override string ToString()
+        {
+            return $"{Investor.Name} ({Percent}%)";
         }
     }
 }

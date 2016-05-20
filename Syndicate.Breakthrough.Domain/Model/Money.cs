@@ -23,5 +23,10 @@ namespace Syndicate.Breakthrough.Domain
             var newAmount = Amount - money.Amount;
             return new Money(newAmount);
         }
+
+        public override string ToString()
+        {
+            return $"{Amount.ToString("G")} {"EUR"}";
+        }
     }
 }

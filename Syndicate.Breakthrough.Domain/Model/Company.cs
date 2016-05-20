@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Syndicate.Breakthrough.Domain
+namespace Syndicate.Breakthrough.Domain.Model
 {
     public class Company
     {
